@@ -13,6 +13,8 @@ public class PlayerCombatController : MonoBehaviour
     [SerializeField] private Transform attack1HitBoxPos;
     [SerializeField] private LayerMask whatIsDamageable;
 
+    private int attackAnimationNumber;
+
     private Animator anim;
 
     private void Start()
@@ -43,14 +45,14 @@ public class PlayerCombatController : MonoBehaviour
     {
         if(gotInput)
         {
-            // Perform Attack1
             if(!isAttacking)
             {
                 gotInput = false;
                 isAttacking = true;
-                isFirstAttack = !isFirstAttack;
+                attackAnimationNumber = Random.Range(0, 3);
+
                 anim.SetBool("attack1", true);
-                anim.SetBool("firstAttack", isFirstAttack);
+                anim.SetInteger("attackAnimationNumber", attackAnimationNumber);
                 anim.SetBool("isAttacking", isAttacking);
             }
         }
@@ -76,6 +78,7 @@ public class PlayerCombatController : MonoBehaviour
         isAttacking = false;
         anim.SetBool("isAttacking", isAttacking);
         anim.SetBool("attack1", false);
+        anim.SetInteger("attackAnimationNumber", 0);
     }
 
     private void OnDrawGizmos()

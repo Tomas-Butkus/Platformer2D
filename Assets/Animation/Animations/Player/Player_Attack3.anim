@@ -21,11 +21,11 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 6736270022206202674, guid: 527a8e010db0c9941973a8408dbc40a5, type: 3}
-    - time: 0.033333335
-      value: {fileID: 3024049245941364480, guid: e7419185310cbfe47bf3f61dee716805, type: 3}
     - time: 0.06666667
+      value: {fileID: 3024049245941364480, guid: e7419185310cbfe47bf3f61dee716805, type: 3}
+    - time: 0.13333334
       value: {fileID: -2318424654951593301, guid: 4c9c10920345ec8499fb0d995c7e744a, type: 3}
-    - time: 0.1
+    - time: 0.26666668
       value: {fileID: -1998044005071932047, guid: c020f1f557fa8794bb3e0eab1c50ae0f, type: 3}
     attribute: m_Sprite
     path: 
@@ -55,7 +55,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.11666667
+    m_StopTime: 0.28333336
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -82,21 +82,21 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.033333335
+  - time: 0.06666667
     functionName: CheckAttackHitBox
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.06666667
+  - time: 0.13333334
     functionName: EnableFlip
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.1
+  - time: 0.26666668
     functionName: FinishAttack1
     data: 
     objectReferenceParameter: {fileID: 0}
