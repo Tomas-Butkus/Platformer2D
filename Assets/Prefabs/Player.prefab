@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5021966901181753712}
   - component: {fileID: 5021966901181753713}
   - component: {fileID: 5021966901181753714}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.12, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -154,7 +154,7 @@ MonoBehaviour:
   movementSpeed: 10
   jumpForce: 18
   groundCheckRadius: 0.1
-  wallCheckDistance: 0.35
+  wallCheckDistance: 0.45
   wallSlidingSpeed: 3
   movementForceInAir: 10
   airDragMultiplier: 0.95
@@ -228,7 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5021966901745694151}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -258,7 +258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5021966901964101952}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LedgeCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -288,7 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5021966902426549757}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Attack1Position
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -318,7 +318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5021966902662928313}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
